@@ -2,6 +2,7 @@
 $(document).ready(function () {
 
     //add the current date to the #current date id in the HTML//
+   
     var currentDate = moment().format("dddd, MMMM Do YYYY, h:mm a");
     $("#currentDay").html(currentDate);
     
